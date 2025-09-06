@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certificate Verification</title>
+    <title>Certificate Generator</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -50,22 +50,22 @@
         <div class="max-w-md w-full space-y-8 bg-white p-10 rounded-xl shadow-lg">
             <div>
                 <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
-                    Verify a Certificate
+                    Download your Certificate
                 </h2>
                 <p class="mt-2 text-center text-sm text-gray-600">
-                    Enter the Certificate ID to verify its authenticity.
+                    Enter the Roll number to download your certificate.
                 </p>
             </div>
             <div class="mt-8 space-y-6">
                 <div class="rounded-md shadow-sm -space-y-px">
                     <div>
-                        <label for="certIdInput" class="sr-only">Certificate ID</label>
+                        <label for="certIdInput" class="sr-only">Roll number</label>
                         <input id="certIdInput" name="certificate_id" type="text" required class="appearance-none rounded-md relative block w-full px-4 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus-ring-green-500 focus:border-green-500 sm:text-sm" placeholder="Certificate ID">
                     </div>
                 </div>
                 <div>
                     <button onclick="verifyCertificate()" class="group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-[#00C853] hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition duration-150 ease-in-out">
-                        Verify
+                        Download
                     </button>
                 </div>
             </div>
@@ -203,3 +203,4 @@
     </script>
 </body>
 </html>
+
