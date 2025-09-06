@@ -1,0 +1,20 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom focus ring color (HackerRank Green) */
+.focus-ring-green-500:focus {
+  --tw-ring-color: #00C853;
+}
+
+/* Certificate background */
+#certificate {
+  background-image: url('../certificate.jpg'); /* Adjust path if needed */
+  background-size: cover;
+  background-position: center;
+  color: #1a202c;
+}
+
+#certName {
+  color: #2d3748;
+}
